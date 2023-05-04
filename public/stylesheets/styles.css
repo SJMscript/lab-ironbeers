@@ -25,6 +25,13 @@ nav{
     color: #f7f9f9;
 }
 
+.home-btn{
+    background-color: #2081c3;
+    color: #f7f9f9;
+    border-color: #2081c3;
+    margin: 10px;
+}
+
 #partial-body{
     display: flex;
 
