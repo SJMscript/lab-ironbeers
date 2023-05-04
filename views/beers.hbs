@@ -1,8 +1,12 @@
-<div>
+<div id="beers-container">
 
     {{#each this.allBeers}}
 
+        <div>
         {{> beerpartial this}}
+        <a href="/beers/{{this.id}}">Ver más detalles de: {{this.name}}</a>
+
+        </div>
 
     {{/each}}
 
